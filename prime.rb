@@ -5,4 +5,5 @@ def prime?(num)
   new_array.each do |i|
   return false if num % i == 0 
   end
+  true
 end
